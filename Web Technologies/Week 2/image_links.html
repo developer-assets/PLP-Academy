@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .menu {
+            text-align: center;
+        }
+        .menu img {
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to our Image Links Page</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#menu">Menu</a>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to our website! Check out the latest in technology:</p>
+    <a href="https://www.example.com/technology"><img width="100%" src="2927262.jpg" alt="Technology Image"></a>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <a href="https://www.example.com/nature1"><img src="download.jpeg" alt="Nature Image 1"></a>
+        <a href="https://www.example.com/nature2"><img src="download-1.jpeg" alt="Nature Image 2"></a>
+        <a href="https://www.example.com/nature3"><img src="download-2.jpeg" alt="Nature Image 3"></a>
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <div class="menu">
+        <div>
+            <h3>Food Item 1</h3>
+            <a href="https://www.example.com/food1"><img src="download-5.jpeg" alt="Food Image 1"></a>
+        </div>
+        <div>
+            <h3>Food Item 2</h3>
+            <a href="https://www.example.com/food2"><img src="download-4.jpeg" alt="Food Image 2"></a>
+        </div>
+        <div>
+            <h3>Food Item 3</h3>
+            <a href="https://www.example.com/food3"><img src="download-3.jpeg" alt="Food Image 3"></a>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
